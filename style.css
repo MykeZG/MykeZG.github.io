@@ -1,33 +1,118 @@
 html,
-body {
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-canvas {
-  display: block;
+html,
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005500;
+}
+
+#my-p5-sketch {
+  position: absolute;
+  z-index: 0;
 }
 
 h1 {
-  color: #7e7a;
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-family: "Funnel Display", sans-serif;
+  letter-spacing: 0.03em;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
-  text-align: center;
+  font-size: 2.5rem;
 }
-/* .matrix {
-  background-color: red;
-} */
-/* div {
-  border: dashed 2px cyan;
-} */
 
-/* Selector  */
 .main {
-  background-color: black;
+  position: relative;
+  -index: 1;
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -39,15 +124,17 @@ h1 {
 }
 
 a {
-  color: green;
-  background-color: #000000;
-  border: 3px solid rgb(45, 92, 45);
-  border-radius: 10px;
+  color: black;
   text-decoration: none;
+  background-color: rgb(255, 255, 255);
   display: block;
   padding: 1rem;
   text-align: center;
   font-size: 2rem;
+  border-radius: 50px;
+  border: 3px solid grey;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 400;
 }
 
 .boton {
@@ -55,8 +142,9 @@ a {
 }
 
 a:hover {
-  background-color: rgb(30, 94, 64);
-  border: rgb(23, 45, 122);
+  color: white;
+  background-color: black;
+  border: #c9e6f0;
   transform: scale(1.1);
-  box-shadow: 0px 5px 20px green;
+  box-shadow: 0px 5px 20px #c9e6f0;
 }
